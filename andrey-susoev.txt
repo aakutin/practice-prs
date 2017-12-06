@@ -1,0 +1,4 @@
+1. 8 commits
+2. Wed Oct 10 00:47:52 2012 +0400
+3. Pavel Tsaregorodtsev
+4. https://github.com/express42/zabbixapi/commit/3b128f
