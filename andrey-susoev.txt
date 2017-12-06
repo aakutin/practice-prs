@@ -1,4 +1,12 @@
 1. 8 commits
+git log --oneline Gemfile | wc -l
 2. Wed Oct 10 00:47:52 2012 +0400
+git log --diff-filter=A Gemfile
 3. Pavel Tsaregorodtsev
+git blame lib/zabbixapi.rb
 4. https://github.com/express42/zabbixapi/commit/3b128f
+git log --all --grep="Add Ruby 2.2 support"
+added 2 aliases to .gitconfig (thx to Felix Geisendörfer)
+alias.hub=!echo "https://github.com/"`git config remote.origin.url` | sed -E s/[a-z]+@github\.com:// | sed s/\.git$//
+alias.url=!sh -c 'HEAD=`git rev-parse HEAD` && SHA1=`[ $0 = sh ] && echo $HEAD || echo $0` && echo `git hub`/commit/${SHA1}'
+
