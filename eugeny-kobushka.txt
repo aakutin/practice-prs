@@ -1,11 +1,14 @@
 1. Суммарное число комитов, которые меняли файл Gemfile?
 
+	Ответ: 8
+
 	$  git log -p Gemfile | grep commit | wc -l
-	8 коммитов
+	
 
 2. Напишите дату когда, Gemfile был добавлен в репозиторий.
 
-	Дата коммита, когда был создан и добавлен файл Gemfile
+	Ответ: Wed Oct 10 00:47:52 2012 +0400
+
 	$ git log --diff-filter=A Gemfile
 
 	commit 8976bf8a44043b9a8a119ea99dd89f000e8c81cd
@@ -14,7 +17,10 @@
 
 	    spec for travis-ci
 
+
 3. Какой пользователь в последний раз менял строки функции def proxies в файле lib/zabbixapi.rb?
+
+	Ответ: Pavel Tsaregorodtsev <ixpict@gmail.com>
 
 	Есть несколько вариантов поиска
 	1. git blame lib/zabbixapi.rb | grep proxies
@@ -30,7 +36,7 @@
 		    Proxies support for 2.0.x version
 
 
-	В этом коммите были внесены строки функции def proxies
+	В этом коммите были внесены строки функции def proxies и от сюда берем Autor
 
 	commit 336e8c24067e3a9461aa5f5a6a4872d1f38e8bd7
 	Author: Pavel Tsaregorodtsev <ixpict@gmail.com>
@@ -38,6 +44,9 @@
 
 
 4. Напишите хеш комита (необязательно полностью), который имеет сообщение “Add Ruby 2.2 support”.
+
+	Ответ: 3b128fa1c6b96c9be4aed5b2bcf777537d752c5e
+
 
 	$  git log --grep="Add Ruby 2.2 support"
 
@@ -50,6 +59,8 @@
 
 	Плюсом будет, если предоставите ссылку на страницу GitHub данного комита.
 
+	Ответ:
+	https://github.com/express42/zabbixapi/commit/3b128fa1c6b96c9be4aed5b2bcf777537d752c5e	
 	
 	Чтобы получить ссылку можно пойти интересным путем, например вот так
 	
