@@ -1,0 +1,5 @@
+Вопросы со звездочкой:
+1. 9 - git log --follow Gemfile | egrep '^commit' | wc -l
+2. Oct 10 00:47:52 2012 - git log Gemfile; git show 8976bf8
+3. Pavel Tsaregorodtsev <ixpict@gmail.com> - git log -L '/def proxies/','/end/':lib/zabbixapi.rb
+4. commit 3b128fa1c6  https://github.com/express42/zabbixapi/commit/3b128fa1c6b96c9be4aed5b2bcf777537d752c5e 
