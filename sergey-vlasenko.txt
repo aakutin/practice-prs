@@ -1,0 +1,18 @@
+1.	9		git log --follow --all--oneline Gemfile | wc -l
+			Показывает изменения даже когда файл мог иметь другое имя
+	8		git log --all --oneline Gemfile | wc -l
+			На мой взгляд, более корректная в данном случае команда
+			т.к. в вопросе стоит услоаие на изменение именно Gemfile
+
+2.	Wed Oct 10 00:47:52 2012
+			git log --name-status Gemfile
+			Парсить не стал, просто в конце списка убедился, что в 
+			коммите стоит атрибут "А" -add
+
+3.	Pavel		git blame lib/zabbixapi.rb | grep "def proxies"
+	Tsaregorodtsev
+
+4.	3b128fa		git log --grep="Add Ruby 2.2 support" | grep commit
+			Показывает полный хеш
+			git log --oneline --grep="Add Ruby 2.2 support"
+			показывает короткий хеш
