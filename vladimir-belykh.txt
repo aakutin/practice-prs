@@ -1,7 +1,12 @@
 1. Решение:
            $ git log --follow --oneline Gemfile | wc -l
+	   $ git log -m --follow --oneline Gemfile | wc -l
    Ответ:
            9
+	   
+	   c мерджами (-m)
+	   
+	   18
 
 2. Решение:
            $ git log --format=%aD Gemfile | tail -1 
