@@ -1,0 +1,5 @@
+1. Суммарное число комитов, которые меняли файл Gemfile?: 8
+2. Напишите дату когда, Gemfile был добавлен в репозиторий: Wed Oct 10 00:47:52 2012 +0400
+3. Какой пользователь в последний раз менял строки функции def proxies в файле lib/zabbixapi.rb?:  Pavel Tsaregorodtsev
+4. Напишите хеш комита: 3b128fa  
+https://github.com/express42/zabbixapi/commit/3b128fa1c6b96c9be4aed5b2bcf777537d752c5e
