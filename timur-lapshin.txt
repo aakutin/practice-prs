@@ -1,0 +1,27 @@
+1/
+Q: Amount of commits that changed file 'Gemfile'?
+A: Depending on usage of flag '--follow' there are 8 or 9 commits listed. Difference is within commit 41d7082.
+
+Commands used:
+git log --follow Gemfile # 9 commits
+git log Gemfile # 8 commits
+
+2/
+Q: List date when 'Gemfile' was added to repository?
+A: Wed Oct 10 00:47:52 2012 +0400
+
+Command used:
+git log Gemfile
+
+
+3/
+Q: List user who made latest change to function 'def proxies' of 'lib/zabbixapi.rb'
+A: Pavel Tsaregorodtsev
+
+Command used:
+git blame lib/zabbixapi.rb | grep "def proxies"
+
+4/
+Q: Wrote down the hash of commit with message "Add Ruby 2.2 support". If you will provide link to GitHub page, it will be considered as a plus.
+A: 3b128fa https://github.com/express42/zabbixapi/commit/3b128fa
+
